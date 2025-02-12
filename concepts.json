@@ -1,0 +1,64 @@
+{
+    "concepts": [
+      {
+        "name": "Text Extraction and Cleanup",
+        "description": "Extracting raw text from input data by removing non-textual information and converting it into the required format.",
+        "golden_answer": "Text extraction removes markup, metadata, and converts data into a usable format for NLP."
+      },
+      {
+        "name": "Character Encoding and Unicode Normalization",
+        "description": "Ensuring text is correctly encoded and normalized for consistent processing.",
+        "golden_answer": "Character encoding assigns numeric values to characters, and Unicode normalization standardizes representations of characters to avoid inconsistencies."
+      },
+      {
+        "name": "Spelling Correction",
+        "description": "Fixing spelling errors in text using NLP techniques.",
+        "golden_answer": "Spelling correction helps improve textual data quality by detecting and fixing errors through spell-checking algorithms."
+      },
+      {
+        "name": "Tokenization",
+        "description": "Breaking down text into sentences and words for further analysis.",
+        "golden_answer": "Tokenization splits text into sentences and words, enabling further NLP processing."
+      },
+      {
+        "name": "Stop Word Removal",
+        "description": "Eliminating common words that do not carry significant meaning in NLP tasks.",
+        "golden_answer": "Stop words are frequently used words (e.g., 'the', 'and', 'is') that are often removed to improve text analysis efficiency."
+      },
+      {
+        "name": "Lowercasing, Punctuation, and Digit Removal",
+        "description": "Standardizing text by converting it to lowercase and removing unnecessary symbols.",
+        "golden_answer": "Lowercasing and removing punctuation/digits help in making text uniform for NLP processing."
+      },
+      {
+        "name": "Stemming and Lemmatization",
+        "description": "Reducing words to their base or root form.",
+        "golden_answer": "Stemming removes suffixes to obtain the root word, while lemmatization maps words to their dictionary base form."
+      },
+      {
+        "name": "Text Normalization",
+        "description": "Transforming text into a standard format, including expanding abbreviations and replacing emojis with words.",
+        "golden_answer": "Normalization converts variations in text into a single standard form to enhance consistency in NLP tasks."
+      },
+      {
+        "name": "Part-of-Speech (POS) Tagging",
+        "description": "Labeling words in a sentence with their grammatical roles (e.g., noun, verb, adjective).",
+        "golden_answer": "POS tagging assigns grammatical categories to words, helping in syntactic and semantic analysis."
+      },
+      {
+        "name": "Named Entity Recognition (NER)",
+        "description": "Identifying and classifying named entities such as persons, locations, and organizations in text.",
+        "golden_answer": "NER extracts and categorizes proper nouns to facilitate structured information retrieval."
+      },
+      {
+        "name": "Parsing and Syntactic Analysis",
+        "description": "Determining the grammatical structure of sentences based on a set of rules.",
+        "golden_answer": "Parsing helps identify syntactic structures like noun phrases and verb phrases in sentences."
+      },
+      {
+        "name": "Coreference Resolution",
+        "description": "Finding all expressions that refer to the same entity in a text.",
+        "golden_answer": "Coreference resolution links different mentions of an entity, such as 'he' referring to 'John'."
+      }
+    ]
+  }
