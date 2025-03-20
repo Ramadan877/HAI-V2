@@ -294,7 +294,7 @@ def generate_response(user_message, original_text, resource_type, golden_answer,
 
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are a helpful tutor providing feedback to students."},
                 {"role": "user", "content": base_prompt}
